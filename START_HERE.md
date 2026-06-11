@@ -101,3 +101,27 @@ If the tool cannot inspect formatting directly, still run the prompt and ask it 
 ## What to do when unsure
 
 If the AI output says “human confirmation needed,” do not ignore it. Ask the document owner, Quality, or Document Control to confirm.
+
+
+## Need only a small targeted edit?
+
+Use the helper prompts instead of the full rewrite workflow.
+
+Start here:
+
+```text
+helper_prompts/HELPER_PROMPTS_START_HERE.md
+```
+
+Use helper prompts for:
+
+- Purpose sections.
+- Scope sections.
+- Key Requirements.
+- Responsibilities.
+- One process step.
+- One paragraph.
+- One table row.
+- Process activity maps.
+
+Use the meaning guard helper before accepting any edit that changes requirements, responsibilities, approvals, records, scope, or process sequence.

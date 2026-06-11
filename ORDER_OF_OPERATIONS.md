@@ -289,3 +289,44 @@ New_After_Final_QA_Report.md
 If the final QA says the document is ready, send it to the normal approval process.
 
 If the final QA says it needs revision, fix the issues and repeat Steps 12 through 14.
+
+
+# Optional Targeted Helper Workflow
+
+Use this workflow when you do not want to rewrite the full document and only need to polish one section, paragraph, step, table row, or process map.
+
+## When to use this workflow
+
+Use it when the document is mostly acceptable, but one part needs cleanup.
+
+Examples:
+
+- Purpose section is wordy.
+- Scope statement is unclear.
+- Key Requirements are inconsistent.
+- One procedure step is hard to read.
+- A paragraph should become numbered steps.
+- A process activity map is needed.
+
+## Helper workflow steps
+
+```text
+Step H1: Open helper_prompts/HELPER_SELECTION_GUIDE.md.
+Step H2: Choose the helper that matches the task.
+Step H3: Copy the helper's prompt.md.
+Step H4: Paste a small section, paragraph, step, or table row below the prompt.
+Step H5: Review the proposed text.
+Step H6: Run the meaning guard helper if the edit affects requirements, responsibilities, records, approvals, scope, or process sequence.
+Step H7: Paste approved text into Word using the correct Word style.
+Step H8: Use the formatting compliance prompt later if the Word file must be checked.
+```
+
+## Helper workflow for process activity maps
+
+```text
+Step M1: Paste the written procedure steps into helper_prompts/08_process_activity_map_helper/prompt.md.
+Step M2: Ask for a Word-friendly box-and-arrow map or swimlane table.
+Step M3: Review the map for missing or extra activities.
+Step M4: Use helper_prompts/16_activity_map_validation_helper/prompt.md.
+Step M5: Ask the process owner to approve any decision point, handoff, record, or sequence issue.
+```

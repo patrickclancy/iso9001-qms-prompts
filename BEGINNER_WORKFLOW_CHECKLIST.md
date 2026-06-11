@@ -87,3 +87,19 @@ Stop and ask for human review if the AI flags:
 - [ ] A change to shall, must, should, may, approve, verify, retain, or maintain.
 - [ ] A conflict between the examples and the company style guide.
 - [ ] A formatting requirement that is unclear.
+
+
+## Helper prompt checklist for small edits
+
+Use this checklist when you only need to polish one section, paragraph, step, table row, or process map.
+
+- [ ] Open `helper_prompts/HELPER_SELECTION_GUIDE.md`.
+- [ ] Choose the helper that matches the task.
+- [ ] Copy the helper's `prompt.md` into your AI tool.
+- [ ] Paste only the small text section that needs help.
+- [ ] Fill in the common input block.
+- [ ] Review the proposed revised text.
+- [ ] Run `helper_prompts/15_meaning_guard_compare_helper/prompt.md` if the change affects requirements, responsibilities, approvals, records, scope, or sequence.
+- [ ] Save the original text and approved revised text in your project notes.
+- [ ] Paste the approved text into Word using the required Word style.
+- [ ] Ask Quality or the process owner to approve any flagged meaning-impact item.

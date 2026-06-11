@@ -107,6 +107,36 @@ Prompt 07: Check Word formatting compliance.
 Prompt 08: Perform final QA gate review.
 ```
 
+
+
+## Targeted helper prompts
+
+This archive also includes a `helper_prompts/` folder for small, targeted edits.
+
+Use these helpers when you do not want a large rewrite and only need to polish one section, paragraph, process step, table row, or activity map.
+
+Common examples:
+
+- Purpose section cleanup.
+- Scope section cleanup.
+- Key Requirements polishing.
+- One procedure step cleanup.
+- Long paragraph converted to steps.
+- Process activity map draft.
+- Meaning-check comparison between original and revised wording.
+
+Start here:
+
+```text
+helper_prompts/HELPER_PROMPTS_START_HERE.md
+```
+
+For a quick selection table, open:
+
+```text
+helper_prompts/HELPER_SELECTION_GUIDE.md
+```
+
 ## Recommended naming convention
 
 Use simple names like this:
